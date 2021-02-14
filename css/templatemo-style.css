@@ -120,18 +120,19 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /* home section */
 #home {
-	background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+	background: url('../images/me.jpg') 50% 0 repeat-y fixed;
 	color: #ffffff;
-	display: -webkit-box;
+	display: -webkit-box; 
 	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
+    display: -ms-flexbox; 
+	display: flex; 
 	-webkit-box-align: center;
 	-webkit-align-items: center;
-	-ms-flex-align: center;
-	align-items: center;
-	height: 100vh;
-	text-align: center;
+	-ms-flex-align: center; 
+	 align-items: center; 
+	 height: 150vh ; 
+	 text-align: center;
+
 }
 #home h2 {
 	letter-spacing: 2px;
@@ -220,6 +221,10 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	background-color: #eb5424;
 	color: #ffffff;
 }
+	#work .bg-blue {
+		background-color: #3eb8ce;
+		color: #ffffff;
+}
 #work h3 {
 	padding-bottom: 60px;
 }
@@ -241,11 +246,11 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /* team section */
 #team {
-	background: #202020 url('../images/team-bg.jpg') 50% 0 repeat-y fixed;
-	color: #ffffff;
+	background: #0f0404 url('../images/touch-2579147_1920.jpg') 50% 0 repeat-y fixed;
+	color: #f7f7f7;
 	padding-top: 100px;
 	padding-bottom: 100px;
-}
+}k
 #team h2 {
 	color: #ffffff;
 }
@@ -259,7 +264,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	font-weight: bold;
 }
 #team .team-des {
-	background-color: #eb5424;
+	background-color: #e7eaeb;
 	color: #ffffff;
 	padding: 20px 12px;
 	position: relative;
@@ -350,10 +355,10 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /* contact section */
 #contact {
-	background: #f6f6f6 url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+	background: #f6f6f6 url('../images/cold-1866597_1920.jpg') 50% 0 repeat-y fixed;
 	color: #ffffff;
 	padding-top: 100px;
-	padding-bottom: 80px;
+	padding-bottom: 500px;
 }
 #contact h2 {
 	color: #ffffff;
